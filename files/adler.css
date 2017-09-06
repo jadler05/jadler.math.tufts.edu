@@ -1,0 +1,130 @@
+.menu ul{
+font: bold 14px georgia; 
+padding-left: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-top: 0px;
+margin-left: 2%;
+margin-top: 0;
+height: 23px;
+float: left;
+}
+
+.menu ul li{
+list-style: none;
+display: inline;
+}
+
+.menu-static {
+font: bold 14px ;
+padding-left: 0px;
+padding-bottom: 2px;
+padding-right: 0px;
+padding-top: 0px;
+margin-right: 2%;
+margin-top: 0;
+float: right;
+color: #FFFFFF;
+padding: 2px 0.5em;
+vertical-align: center;
+}
+
+.menu ul li a{
+padding: 2px 0.5em;
+text-decoration: none;
+float: left;
+color: #FFFFFF;
+/*background-color: #0101DF;*/
+background-color: #6699FF;
+border: 1px solid #6699FF;
+/*border: 1px solid #0101DF;*/
+}
+
+body.home a.home, body.sched a.sched, body.hw a.hw, body.abstract a.abstract, body.extras a.extras, body.teaching a.teaching, body.research a.research, body.cv a.cv, body.pubs a.pubs, body.activity a.activity, body.mhdmovie a.mhdmovie, body.phasemovie a.phasemovie, body.lcmovie a.lcmovie {
+
+color: #996600;
+}
+
+a.anchor {
+   padding-top: 40px;
+   margin-top: -40px;
+}
+
+.menu ul li a:hover{
+background-color: #4952DA;
+border-style: outset;
+}
+
+html>body .menu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+}
+
+.topsection {
+background-color: #FFFFFF;
+font: 22px arial;
+padding-left: 0;
+margin-left: 2%;
+margin-top; 2%;
+vertical-align: center;
+height: 60px;
+ }
+
+.menubar-top {
+background-color: #6699FF;
+border: 1px solid #6699FF;
+height: 25px;
+padding-top: 0;
+top:0;
+left:0;
+position:fixed;
+width:100%;
+ }
+
+.menubar {
+background-color: #6699FF;
+border: 1px solid #6699FF;
+height: 25px;
+padding-top: 0;
+}
+
+.menubar-bot {
+background-color: #6699FF;
+border: 0px solid #6699FF;
+height: 23px;
+bottom: 0;
+left: 0;
+margin-bottom: 0%;
+padding-bottom: 0%;
+padding-top: 0%;
+position:fixed;
+width:100%;
+vertical-align: center;
+}
+
+.mainbackground {
+background-color: #F2F2F2;
+ }
+
+.maincontent {
+background-color: #F2F2F2;
+border-radius: 25px;
+border: 3px solid #996600;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;
+margin-bottom: 5%;
+padding-top: 3%;
+padding-left: 3%;
+padding-bottom: 3%;
+padding-right: 3%;
+font: 14px;
+}
+
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<!-- /************************************************
+	* Dynamic Countdown script- © Dynamic Drive (http://www.dynamicdrive.com)
+	* This notice MUST stay intact for legal use
+	* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+	***********************************************/ -->

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Computational and Applied Mathematics Seminar</title>
+	
+ <link rel="stylesheet" type="text/css" href="../../files/adler.css">
+<link REL="SHORTCUT ICON" HREF="http://jadler.math.tufts.edu/files/favicon.ico">
+
+  </head>
+<div class="menubar-top">
+<div class="menu">
+<div class="menu-static">Computational and Applied Mathematics Seminar
+</div>
+<ul>
+<li><a href="./" class="home">Home</a></li>
+<li><a href="abstracts.html" class="abstract">Abstracts</a></li>
+<li><a href="resources.html" class="extras">Resources</a></li>
+<li><a href="pastsemesters.html" class="hw">Previous Seminars</a></li>
+</ul>
+</div>
+</div>
+ 
+  <body class="abstract">
+
+<div class="maincontent">
+<font size=+1><b><center>Abstracts for Spring 2017</center></b></font><br>
+<ul>
+<li><a name="gaspar" class="anchor"><b>Francisco Gaspar</b> - <i>Multigrid waveform relaxation. Application to the time-fractional heat equation.</i><br>
+<p>The numerical solution of large linear systems arising from the discretization of partial differential equations with evolutionary behavior is of interest in many applications. When dealing with such time-dependent problems, the classic approach (time-stepping) is based on solving sequentially the problem for one time step after the other. However, this strategy does not allow the parallelization of the temporal variable. In many practical problems very large number of time-steps are required, what increases the computational cost of the simulations. In order to overcome this, one can increase the concurrency by using time-parallel and full space-time methods. Multigrid methods are known to have optimal complexity for solving many numerical problems. The use of multigrid for adding parallelism to time integration allows for faster time-to-solution in comparison with classical time-stepping approaches. The aim of this work is the analysis of the performance of the multigrid waveform relaxation for the time-fractional heat equation.</p>
+</a></li>
+<li><a name="peiyao" class="anchor"><b>Peiyao Luo</b> - <i>Monolithic Multigrid Method for the Coupled Stokes Flow and Deformable Porous Medium System</i><br>
+<p>The interaction between fluid flow and a deformable porous medium is a complicated multi-physics problem which can be described by a coupled model based on the Stokes and poroelastic equations. A monolithic multigrid method together with a coupled Vanka smoother and a decoupled Uzawa smoother is employed as an efficient numerical technique for the linear discrete system obtained by finite volumes on staggered grids. A novelty in our modeling approach is that at the interface of the fluid and poroelastic medium, two unknowns from the different subsystems are defined at the same grid point. We propose a special discretization at or near the points in the interface, which combines the approximation of the governing equations and the considered interface conditions. In the decoupled Uzawa smoother, Local Fourier analysis (LFA) helps us to select optimal values of the relaxation parameter appearing. To implement the monolithic multigrid method, grid partitioning is used to deal with the interface updates when communications are required between two subdomains. Numerical experiments show that the proposed numerical method provides an excellent convergence. The efficiency and robustness of the method are confirmed in numerical experiments with typically small values of the physical coefficients.</p>
+</a></li>
+</ul>
+</div>
+<div class="maincontent">
+<font size=+1><b><center>Abstracts for Fall 2016</center></b></font><br>
+<ul>
+<li><a name="vornin" class="anchor"><b>Sergey Vornin</b> - <i>Efficient methods for the construction of low rank matrix decompositions 
+and applications to inverse problems and parameter estimation.</i><br>
+<p>In this talk, we review several types of low rank matrix decompositions and discuss efficient
+algorithms for their constructions, employing randomized sampling techniques.
+We go on to discuss some applications of these methods to problems   
+from geophysics, imaging, and parameter estimation, which are currently being explored.</p>
+</a></li>
+<li><a name="julio" class="anchor"><b>Julio E. Castrillon-Candas</b> - <i>Analytic regularity and collocation approximation for elliptic PDEs with random domain deformations. </i><br>
+<p>In many physical processes the practicing engineer or scientist
+encounters the problem of optimal design under uncertainty of the
+underlying domain. For example, in the lithographic process of
+semi-conductor design the exact geometries of the designed patterns
+are not easy to control due to uncertainties.  If there is no
+quantitative understanding in the involved domain uncertainty such a
+design may be carried out by trial and error. However, in order to
+accelerate the design cycle, it is essential to quantify the influence
+of this uncertainty on Quantities of Interest. Another example includes 
+graphene sheet nano fabrication.
+<br><br>
+In this talk we consider the problem of approximating the statistics
+of a given Quantity of Interest (QoI) that depends on the solution of
+a linear elliptic PDE defined over a random domain parameterized by
+$N$ random variables. The elliptic problem is remapped on to a
+corresponding PDE with a fixed deterministic domain. We show that the
+solution can be analytically extended to a well defined region in
+$\C^{N}$ with respect to the random variables. A sparse grid
+stochastic collocation method is then used to compute the mean and
+standard deviation of the QoI. Convergence rates for the mean and
+variance of the QoI are derived and compared to those obtained in
+numerical experiments.</p>
+</a></li>
+<li><a name="hui" class="anchor"><b>Hui Yang</b> - <i>Mechanics of High-Capacity Anode Materials in Lithium-Ion Nano-Batteries.</i><br>
+<p>
+Rechargeable lithium-ion batteries (LIBs) are currently the best performing
+
+electrochemical energy storage techniques due to their high energy density. They are
+
+widely used in portable electronics and electric vehicles. However, LIBs with high-
+
+capacity electrodes (such as silicon) suffer from rapid irreversible capacity decay and
+
+poor cyclability due to lithium insertion/extraction (charging/discharging) induced huge
+
+volume changes and subsequent fracture and pulverization. Therefore, a fundamental
+
+understanding of the degradation mechanisms in the high-capacity anodes during
+
+charging/discharging cycling is crucial for the rational design of next-generation failure-
+
+resistant LIBs.
+
+In this talk, an atomistically informed finite-strain chemo-mechanical model
+
+coupling lithium transport kinetics with large elasto-plastic deformation will be presented
+
+to study the lithiation (charging)-induced phase transformation, morphological evolution,
+
+stress generation and fracture in high capacity anode materials. Based on the model and
+
+in-situ transmission electron microscopy experimental observations, the intimate strong
+
+coupling between mechanics and electrochemistry that defines the degradation of the
+
+LIBs will be highlighted. In addition, the strong coupling effect will be exploited to
+
+realize mechanically rechargeable LIBs, and nanostructured electrodes will be designed
+
+to mitigate battery degradation and optimize battery performance.</p>
+</a></li>
+<li><a name="guasto" class="anchor"><b>Jeffrey Guasto</b> - <i>Porous media flows: From swimming cells to complex fluids.</i><br>
+<p>
+Fluid and particulate transport in porous environments regulates processes ranging from
+
+remediation in soils to the spread of infection in human tissues. In this talk, we will
+
+address two important aspects of porous media flows using microfluidic devices to
+
+precisely prescribe the microstructure and flow within a model porous medium. First, we
+
+will examine the physical mechanisms underlying the transport of swimming cells in
+
+porous fluid environments. We show that such confined flows generate significant
+
+heterogeneity in the spatial distribution of motile bacteria and significantly modify the
+
+transport coefficients of active cells. As a consequence, the chemotactic ability of cells is
+
+suppressed, while surface attachment is enhanced. Second, we will briefly discuss recent
+
+measurements on the transport of yield stress fluid flow in random porous media, where
+
+we demonstrate that surface interactions play a significant role in the development of
+
+flow topology.
+</p></li>
+<li><a name="luis" class="anchor"><b>Luis Dorfmann</b> - <i>The elastic secrets of the chameleon tongue.</i><br>
+<p>
+The ballistic projection of the chameleon tongue is an extreme example of quick energy release in the animal kingdom. It relies on a complicated physiological structure and an elaborate balance between tissue elasticity, collagen  fiber anisotropy, active muscular contraction, stress release, and geometry. A general biophysical model for the mechanics and dynamics of the chameleon tongue based on large deformation elasticity is presented. The model involves three distinct coupled subsystems: the energetics of the intralingual sheets, the mechanics of the activator muscle, and the dynamics of tongue extension. Together, these three systems elucidate the key mechanical properties of prey-catching among chameleon ides.</p>
+</a></li>
+</ul>
+</div>
+<div class="maincontent">
+<font size=+1><b><center>Abstracts for Spring 2016</center></b></font><br>
+<ul>
+<li><a name="long" class="anchor"><b>Long Chen</b> - <i>Multigrid Methods for Saddle Point Systems of Mixed Finite Element Methods</i><br>
+<p>The first order condition of the constrained minimization problem leads to a saddle point problem. A multigrid method using a multiplicative Schwarz smoother for saddle point problems can thus be interpreted as a successive subspace optimization method based on a multilevel decomposition of the constraint space. Convergence theory is developed for successive subspace optimization methods based on two assumptions on the space decomposition: stable decomposition and strengthened Cauchy-Schwarz inequality, and successfully applied to the saddle point systems arising from mixed finite element methods for Poisson, Stokes equations, and plate bending problems. Uniform convergence is obtained without the full regularity assumption of the underlying partial differential equations. Exact sequences of Hilbert complexes plays an important role in the design and analysis of our method.</p>
+</a></li>
+<li><a name="love" class="anchor"><b>Peter Love</b> - <i>A Quantum Algorithm for the Moebius Function</i><br>
+<p>In spite of much effort over the last twenty years the number of quantum algorithms offering quantum speedups remains small. The search for new algorithms is motivated both by the desire to find applications for future quantum computers and to discover new algorithmic techniques that exploit quantum resources. In this talk I will describe an efficient quantum algorithm for the Moebius function from the natural numbers to {-1,0,1} and discuss the algorithmic techniques used in this algorithm. While the Moebius function was previously known to be in BQP, I will present an algorithm that does not rely on factorization via Shor's algorithm as an intermediate step.</p>
+</a></li>
+<li><a name="sarkar" class="anchor"><b>Saheli Sarkar</b> - <i>Phenotypic analysis of cancer-immune interactions at single cell level</i><br>
+<p>Inherent variability in molecular events results in heterogeneous cellular responses in any cell
+
+population. This variability, combined with a highly complex, dynamic microenvironment 
+
+causes differential outcome to identical signaling cues. In cancer cells, this can manifest as 
+
+acquired drug resistance to conventional chemotherapy or evasion of endogenous 
+
+immunosurveillance by a small fraction of cells. Therefore, profiling single cell dynamic 
+
+responses is necessary to assess cellular variations and correlate with functional diversity. Using 
+
+a droplet microfluidics platform, we have characterized early and delayed phenotypic reactions 
+
+of various immune cells and cancer cells at single cell level. We observed heterogeneous drug 
+
+uptake in individual drug-sensitive breast cancer cells, while the drug-resistant cells showed 
+
+uniformly low uptake and retention but distinctive efflux properties. This platform allowed us to 
+
+quantify communication between cancer and immune cells mediated by contact-based processes 
+
+as well as soluble paracrine signals. Our results demonstrate that dynamic, transient interactions 
+
+occur in subsets of cells and regulate immune effector functions potently. We are currently 
+
+developing high throughput single cell techniques for dynamic phenotypic screening and 
+
+preclinical evaluation of immunotherapeutic strategies.</p>
+</a></li>
+<li><a name="bookman" class="anchor"><b>Lake Bookman</b> - <i>Approximate Solitons of the Landau-Lifshitz Equation</i><br>
+<p>Solitons arise as solutions to certain nonlinear, dispersive partial differential equations and have remarkable physical properties. The Landau-Lifshitz equation is one such equation that models the time-dynamics of the magnetization of ferromagnetic material. One family of solutions, known as droplet solitons, has many theoretical characteristics which them particularly appealing for physical applications such as data storage and transfer. Unfortunately, the Landau-Lifshitz model is highly idealized and neglects many effects that prove to be significant in experiments. The fundamental properties of the droplet soliton and extensions to more realistic models can be understood through a combination of numerical experiments and asymptotic approximation. This talk will focus predominantly on the classical method of soliton perturbation theory, the insights that can be gained into this extended family of solutions and how those connect experimental observations.</p>
+</a></li>
+<li><a name="garven" class="anchor"><b>Grant Garven</b> - <i>Mathematical Models for Deep Fluid Migration in the Earth's Crust</i><br>
+<p>Faults are known to strongly control the migration of groundwater in the Earth’s crust, the migration and accumulation of petroleum in young sedimentary basins, the chemical reactions of very hot fluids in mid-oceanic ridges, and the natural seepage of hydrocarbons from offshore reservoirs into coastal marine ecosystems. Pore fluid pressure feedbacks on rock stress can also have a profound effect on the mechanical properties of faults, generating aftershocks with major earthquakes, and of course inducing seismicity associated with engineered fluid injection in the deep 
+subsurface by humans.  In this seminar I will review some of the mathematical formulations my students and I have used to characterize deep fluid migration, heat flow, chemical transport, and rock deformation in the Earth’s crust.  The physics of flow and transport in the crust commonly results in the formulation of parabolic, hyperbolic, and elliptic partial differential equations, which require computational methods for solution due to their mathematical coupling, nonlinearity, and highly heterogeneous geologic distribution of formation properties. Faults are complex geologic structures, and engineering parameters for them, such as permeability, are very poorly constrained. But in southern California, migration of petroleum and noble gases can be used to constrain fault permeability. For example, in the Santa Barbara basin, observed petroleum flow rates from a submarine seep area constrains off-shore fault permeability k~30 millidarcys for the km-scale vertical migration of fluids within the South Ellwood Fault.  In the Los Angeles Basin, mantle helium is a significant component of the helium gas from deep oil wells along the Newport-Inglewood Fault zone (NIFZ), and can be used as a natural tracer for fluid migration. Helium isotope ratios are as high as 5.3Ra indicating 66% mantle contribution, and most values are well above background crustal numbers.  Other samples from basin margin faults and from within the basin have much lower values (R/Ra < 1.0).  The ^3He inversely correlates with CO2, a potential magmatic carrier gas.  The \delta^{13}C of the CO2 in the ^3He rich samples is between 0 and -10 per mil, suggesting a mantle influence. The strong mantle helium signal along the NIFZ is surprising considering that the fault is currently in a transpressional rather than an extensional stress regime, lacks either recent magma emplacement or high geothermal gradients, and is modeled as truncated by a proposed major, potentially seismically active, décollement beneath the deep basin.  Our results demonstrate that the NIFZ is a deep-seated fault connected with the mantle.  We calculate a maximum Darcy flow of 2.2 cm yr^{-1} and permeability of 160 microdarcys (1.6 x 10^{-16} m^2), vertically averaged through the 30-km thick crust. This flow rate is far too slow to perturb the regional heat flow around the fault. The mantle leakage may be a result of the NIFZ being a former paleo-Mesozoic subduction zone in spite of being located 70 km west of the current plate boundary at the San Andreas Fault.</p>
+</a></li>
+<li><a name="hodes" class="anchor"><b>Marc Hodes</b> - <i>Effect of Thermocapillary Stress on Slip Length for a Parallel Ridge-Textured Channel</i><br>
+<p>In this seminar, we will compute the apparent hydrodynamic slip length for (fully-developed and laminar) Poiseuille flow of liquid through a heated parallel-plate channel. One side of the channel
+is textured with parallel (streamwise) ridges and the opposite one is smooth. On the
+textured side of the channel, the liquid is the Cassie (unwetted) state, i.e., a lubricating layer of gas is trapped between menisci formed between ridges and the underlying substrate of the channel. No-slip and constant heat flux boundary conditions are imposed at the solid-liquid interfaces between the ridge tips and liquid and the menisci between ridges are considered at and adiabatic. The smooth side of the channel is subjected to no slip and adiabatic boundary conditions. We account
+for the streamwise and spanwise thermocapillary stresses induced along menisci. When
+the latter are sufficiently small, Stokes flow may be assumed. Then, our solution is based
+upon a conformal map, albeit a cumbersome one. When, additionally, the ratio of channel height to ridge pitch is of order 1 or larger a less cumbersome, but equally accurate, solution is derived utilizing a matched asymptotic expansion. When inertial effects are relevant the slip length is numerically computed.</p>
+</a></li>
+</ul>
+</div>
+<div class="maincontent">
+<font size=+1><b><center>Abstracts for Fall 2015</center></b></font><br>
+<ul>
+<li><a name="hand" class="anchor"><b>Paul Hand</b> - <i>ShapeFit: Exact location recovery from corrupted pairwise directions</i><br>
+<p>We consider the problem of recovering a set of locations given a subset of corrupted pairwise direction observations. The three-dimensional case of this problem is a subtask in the Structure from Motion pipeline for 3d structure recovery based on a collection of images from different vantage points. We introduce a novel convex program for the location recovery problem. We prove that this program recovers a set of Gaussian locations exactly and with high probability if the observations are given by an Erdos-Renyi graph, and provided that at most a constant fraction of observations involving any particular location are adversarially corrupted. We also demonstrate that the convex program is stable to the additional presence of noise.</p>
+</a></li>
+<li><a name="wu" class="anchor"><b>Elizabeth Wu</b> - <i>The Investigation of Differential Operator Based on Fast Fourier Continuation and Sobolev Smoothing</i><br>
+<p>A numerical differential operator based on fast fourier continuation and sobolev smoothing has been investigated in this paper. The analysis of differential operators is well developed theoretically, while its numerical analysis and application are still brand new topics. We built our numerical differential operator based on a fast smoothed algorithm, which can be applied to the non-periodic functions without suffering from Gibbs phenomenon. The accuracy and stability, including a unique variation on the typical Courant-Friedrich-Lewy condition, have been analyzed. Our numerical experiments, which applied our numerical differential operator to solve one- and two-dimensional wave equations, clearly demonstrated the advantages of the technique in terms of accuracy, stability, and computational cost when compared with a second-order finite-difference solver.</p>
+</a></li>
+<li><a name="ohm" class="anchor"><b>Peter Ohm</b> - <i>Statistical Thermodynamics and Modeling Chemical Activity Coefficients</i><br>
+<p>The development of a transformative model for capturing thermodynamic properties of multicomponent aqueous solutions over the entire concentration range using statistical mechanics and multilayer adsorption isotherms. This semi-empirical model needs only a few adsorption energy values to represent the solution thermodynamics of a solute. Further parameter reduction can by achieved by relating adsorption energy parameters to dipole-dipole electrostatic forces in solute-solvent and solvent-solvent interactions. The model has been successfully validated using thirty-seven 1:1 electrolytes and twenty non-dissociating organic solutions.</p>
+</a></li>
+<li><a name="emerson" class="anchor"><b>David Emerson</b> - <i>A Deflation Technique for the Computation of Static Liquid Crystal Configurations</i><br>
+<p>Numerical simulation of the static and dynamic behavior of liquid crystals plays an important role in the discovery of new physical phenomenon, device design, and experimental analysis. The complicated nature of liquid crystal models provides a number of interesting mathematical questions ranging from optimization theory to iterative linear solvers. One of the most important challenges is the existence of multiple solutions associated with the Frank-Oseen energy model. In this talk, we present a new approach to computing distinct solutions for static liquid crystal configurations based on the use of a deflation operator. In addition to its efficacy, the method is relatively non-intrusive and does not significantly increase computational costs. The approach is particularly attractive because finite-element methods and multigrid techniques designed for the original, undeflated problem can be utilized without modification to provide solutions to the deflated system.  A number of numerical examples are presented, demonstrating the performance of the approach for both nematic and cholesteric liquid crystals.</p>
+</a></li>
+<li><a name="colley" class="anchor"><b>Charlie Colley</b> - <i>Data Perturbation Technique for Improving Clustering Objective Functions</i><br>
+<p>Graph clustering is a prominent question in big data problems. Due to the term cluster being so ambiguous, many different heuristics have been developed to find solutions.  Objective functions are used to evaluate how successfully a subset of vertices in the graph matches a definition of a cluster.  Conductance is a popular objective function deeply related to the eigenvalues of the graph Laplacian. I will present the progress of my senior thesis towards proving why data perturbation techniques can solve the issue of trivial solutions from minimizing spectral based objective functions.</p>
+</a></li>
+<li><a name="elman" class="anchor"><b>Howard Elman</b> - <i>Linear Algebra Computations for Parameterized Partial Differential Equations</i><br>
+<p>The numerical solution of partial differential equations (PDEs) often entails the solution of large linear systems of equations.  This compute-intensive task becomes more challenging when components of the problem such as coefficients of the PDE depend on parameters that are uncertain or variable.<br><br>
+In this scenario, there is a need to compute many solutions for a single simulation, and for accurate discretizations, costs may be prohibitive.  We discuss new computational algorithms designed to improve efficiency in this setting, with emphasis on new algorithms to handle stochastic problems and new approaches for reduced-order models.</p>
+</a></li> 
+<li><a name="melody" class="anchor"><b>Melody Takeuchi</b> - <i>Abrupt Transitions from Low to High Firing Frequencies in Neuronal Models</i><br>
+<p>Epilepsy is one of the most common neurological disorders, manifesting through brain seizures. We ask under what conditions this sort of "runaway activity" of neuronal firing occurs. Three single-neuron models with self-excitation are examined: the linear integrate-and-fire neuron, the theta neuron, and the reduced Traub-Miles neuron. In addition, the effects of recurrent excitation in the PING network model with NMDA and AMPA synapses, as well as the PING network with adaptation, are shown via numerical simulations.</p>
+</a></li>
+<li><a name="tim" class="anchor"><b>Tim Atherton</b> - <i>Order, Geometry, and Dynamics in Soft Matter</i><br>
+<p>Emulsions—dispersions of “guest" fluid droplets inside another “host" fluid—are very familiar in everyday life as food, consumer products and as raw materials such as crude oil. Despite their ubiquity, they exhibit fascinating and complicated physics. In this talk, I present some recent work on a class of materials, Pickering Emulsions, that also include colloidal particles. With applications ranging from food products to cosmetics via targeted drug delivery systems, the particles provide an efficient way to control an emulsion’s structure, properties and functions. For example, particles adsorbed on the interface of the droplets can be used to control the rate at which they coalesce, which in turn affects the overall rate at which the emulsion separates. When fluid emulsion droplets are brought in contact, a reduction of the interfacial tension drives their coalescence into a larger droplet of the same total volume and reduced exposed area. This coalescence can be partially or totally hindered by the presence of nano or micron-size particles that coat the interface as they become crowded, arresting further evolution of the droplet. A similar process can stabilize deformed droplets as they relax back to their equilibrium shape. I'll discuss some of our recent theoretical work on understanding the ordering that emerges in these systems, as well as results from our experimental collaborators on actualizing them. Other kinds of ordering such as liquid crystals will also be discussed.</p>
+</a></li>
+</ul>
+</div>
+<div class="maincontent">
+<font size=+1><b><center>Abstracts for Spring 2015</center></b></font><br>
+<ul>
+<li><a name="maria" class="anchor"><b>Maria Elenius</b> - <i>Carbon Dioxide Mineralization in the Presence of Convective Mixing and the Capillary Transition Zone</i><br>
+<p>It has been shown that dissolution is one of the major trapping mechanisms in CO2 storage in saline aquifers, and can contribute by similar 
+magnitude as for example capillary trapping. Many investigations have focused on the considerable enhancement of the dissolution rate due 
+to convective mixing that is a result of the enhanced density of brine with dissolved CO2. We have previously shown that there is an interaction 
+between the Capillary Transition Zone (CTZ) in the CO2 plume, and convective mixing, and that this causes significantly enhanced dissolution 
+rates compared to a scenario that most authors have used, where the interface is treated as a closed upper boundary. The rate of dissolution 
+from the plume may also be affected by mineral reactions. Andres and Cardoso (2011) showed that for mineralization of CO2, there is a threshold 
+reaction rate above which convection does not appear. However, they do not account for the CTZ.
+<br><br>
+
+We study the impact of the CTZ on convective mixing in a system that features mineralization of CO2. A first-order reaction rate is assumed, with 
+reactivity that is enhanced with the CO2 concentration. Linear stability results display higher permissible reaction rates allowing for convection in 
+the presence of the CTZ, compared with the case mentioned above. In addition to the linear stability analysis, the nonlinear regime is explored 
+using direct numerical simulations with the Automatic Differentiation General Purpose Research Simulator (AD-GPRS) developed at Stanford.</p>
+</a></li>
+<li><a name="joanne" class="anchor"><b>Joanne Lin</b> - <i>A Contagion Model of Emergency Airplane Evacuations</i><br>
+<p>Motivated by the Asiana Flight 214 crash in San Francisco Summer 2013, this project focuses on modeling an emergency
+airplane evacuation.
+Our models are based on the Particle Swarm Optimization (PSO) algorithm, where each agent's
+position is compared to a fitness function that 
+describes the current environment. Each agent moves according to its
+knowledge of its own previous best position and the group's current best 
+position. The static environment is modeled
+by a potential function that describes the layout of the airplane that includes the exits and physical 
+barriers such as the
+seats. We model the interactions within the swarm by an attraction-repulsion force. Finally, we chose to incorporate
+the spread 
+of an emotion such as fear or panic that influences the behavior of agents within the swarm. Our project
+includes an analysis of how the parameters 
+and scaling of different parts of the model affect the swarm behavior.
+We also compared simulations with and without fear to study the impact of 
+emotion on individual behavior as well
+as the ability of the entire group to safely exit the aircraft. We hope that this will lead to increased understanding
+of
+how panicked crowds behave in evacuation situations and that this will lead to better, safer evacuation designs.</p>
+</a></li>
+<li><a name="viesca" class="anchor"><b>Robert Viesca</b> - <i>Of Faults and Faucets</i><br>
+<p>Roughly speaking, faults are surfaces that accomodate relative motion (a discontinuity in displacement) and exist within a tectonic plate or at the 
+interface of two tectonic plates.  We introduce basic equations governing quasi-static motion on a fault. The key ingredients are (i) the elastic response 
+of the host body to a spatial distribution of fault slip and (ii) knowledge of what determines frictional strength. The former is well known and the latter is 
+largely empirical (we’ll sketch some of the curent understandings of sliding friction drawn from lab experiments). The resulting system is a nonlinear one 
+which may give rise to a finite-time instability when frictional strength reduces in response to sliding. Such finite-time blowup is encountered in many 
+problems, including the pinch-off of a water drop or the rupture of a thin film. Here, the instability is a blowup of the rate of 
+sliding. In nature, the rate of 
+sliding is ultimately
+limited by inertial dynamics, and this type of instability is seen as the origin of an earthquake-generating rupture.
+<br><br>
+The linear stability of a system is often the first point of analysis, and while useful, it leaves out information about important late stages of development 
+(here, those closest to the onset of an earthquake). In the context of fault slip, we’ll examine how one might look at the asymptotic behavior of a system 
+approaching its finite blowup time. In particularly, we’ll show that this asymptotic behavior can be described in terms of dynamical systems, and that for 
+the particular system considered here, we’ll find that even the best laid plans (here, a near-perfect fault), can oft go awry.</p>
+</a></li>
+<li><a name="stevens" class="anchor"><b>Tom Vandervelde and Maggie Stevens</b> - <i>Studying Anomalous Open-Circuit Voltage Drop-Out in Concentrated Photovotaics Using<br>
+<font style="visibility:hidden;"><b>Tom Vandervelde and Maggie Stevens</b> -   -  </font>Computational Numerical Analysis</i><br>
+<p>
+Under ultra-high solar concentration, an anomalous Voc drop-out has been observed experimentally, but not understood theoretically. This anomaly is 
+often attributed to various thermal effects, but it is also observed in flash testing, where thermal effects do not have time to accumulate. The effect of 
+dynamically changing charge carrier compositions on fundamental electrical properties, such as open-circuit voltage, has yet to be explored in detail. 
+We discuss our theoretical examination of semiconductor performance under high optically generated carrier injection. Using Newton linearizations and 
+the finite-element library deal.II, we develop a computational model to solve the carrier continuity equations for optically generated charge carriers as a 
+function of material depth in bulk III-V semiconductors. The ultimate goal of this project is to implement deal.II with ultra-high solar concentration parameters 
+in the dynamic, rather than quasi-steady state, case. 
+</p>
+</a></li>
+<li><a name="saibaba" class="anchor"><b>Arvind Saibaba</b> - <i>Fast Kalman Filter for Random Walk Forecast Model</i><br>
+<p>
+Kalman ﬁltering is a fundamental tool in statistical time series analysis to understand the dynamics of large systems for which limited, noisy observations 
+are available. However, textbook implementations of the Kalman filter for random walk forecast model are prohibitively expensive and they require O(N^2) 
+in memory and O(N^3) in computational cost, where N is the dimension of the state variable. Using the Hierarchical matrix approach, we show that the state covariance matrix at each update step can be written as the combination of a matrix with hierarchical structure and a low-rank perturbation. When the number 
+of measurements are small, we will show how to compute and update this decomposition in O(k^2N + kN log N) for every time step, where k << N is the rank 
+of the perturbation. This opens up the possibility of real-time adaptive experimental design and optimal control in systems of much larger dimension than was previously feasible. I will talk about the resulting computational gains from a challenging application: real time monitoring CO_2 in the subsurface using 
+traveltime seismic tomography.
+<br><br>
+Joint work with Eric Miller and Peter Kitanidis.
+</p>
+</a></li>
+<li><a name="bakhos" class="anchor"><b>Tania Bakhos</b> - <i>Flexible Krylov Solvers for Shifted Systems with Applications to Solving Large-Scale Inverse Problems</i><br>
+<p>
+Inverse problems involve estimating parameters from physical measurements; for example, hydraulic tomography is a method to estimate hydraulic 
+parameters related to the subsurface from pressure measurements obtained by a series of pumping tests. For many inverse problems, the solution of 
+a shifted system of linear equations is the major computational bottleneck. By exploiting the shift-invariance property of Krylov subspaces, only a single 
+Krylov basis is computed and the solution for multiple shifts can be obtained at a cost that is similar to the cost of solving a single system. We have 
+developed flexible Krylov solvers for shifted systems and proposed fast methods for solving large-scale inverse problems based on these Krylov solvers. 
+We demonstrate the performance gains (up to 20x speedup) on data sets taken from hydraulic tomography.
+</p>
+</a></li>
+<li><a name="zhao" class="anchor"><b>Xuan Zhao</b> - <i>An Introduction to Fractional PDEs: Applications and Numerics</i><br>
+<p>
+In this talk, a brief introduction for the history of fractional calculus and definitions of fractional derivatives are given.  Applications of heat transfer in porous 
+media, turbulence flow and soft matter are presented to show the derivation of fractional PDEs. Numerical simulations of anomalous sub- diffusion and 
+super-diffusion that demonstrate new localized diffusion rates that depend on the curvature of the variable-order function. We perform simulations of wave 
+propagation in a truncated domain to demonstrate how erroneous wave reflections at the boundaries can be eliminated by super-diffusion, and also simulations 
+of the Burgers equation that serve as a testbed for studying the loss and recovery of monotonicity using again variable rate diffusion as a function of space 
+and/or time.  A compact alternating direction implicit difference scheme is developed and analyzed for 2D space fractional Schrödinger equation.  Numerical 
+results demonstrate that the compact operator does not bring in extra computational cost but improves the accuracy of the scheme greatly. </p>
+</a></li>
+<li><a name="jayanth" class="anchor"><b>Jayanth Jagular-Mohan</b> - <i>Approximate Optimal Projection for Reduced-Order Models</i><br>
+<p>
+A critical component of a reduced-order model is the projection that maps the original high-fidelity system on to the reduced-order basis. In this talk we 
+present a projection for linear systems that is optimal in an operator independent norm. We derive an expression for this projection as sum of the Galerkin 
+projection, and an additional component which is interpreted as the effect of the scales that live outside the reduced order basis. We note that the exact form 
+of this projection does not lead to a viable computational method since it involves the inverse of the original high-fidelity operator. Using a suitable approximate 
+inverse we can create a practical method whose costs scale in the same way as the Galerkin method. We demonstrate the utility of these ideas by developing reduced-order models for physical systems that can be modeled by partial differential equations with affine parameter dependence.</p>
+</a></li>
+</ul>
+</div>
+</body>
+
+<div class="menubar-bot">
+<div class="menu">
+<div class="menu-static">
+<font size=-2>Last Updated 2017-Mar-09</font>
+</div>
+</div>
+</div>
+
+</html>

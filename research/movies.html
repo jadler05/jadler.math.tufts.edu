@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>James Haley Adler - Movies</title>
+	
+<link rel="stylesheet" type="text/css" href="../files/adler.css">
+<link REL="SHORTCUT ICON" HREF="file:///C:/Users/acloss01/Desktop/adler/files/favicon.ico">
+
+  </head>
+ <div class="menubar-top">
+<div class="menu">
+<div class="menu-static">Research Simulations</div>
+<ul>
+<li><a href="../" class="home">Home</a></li><li><a href="../files/myCV.pdf" class="cv" target="_blank">Curriculum Vitae</a></li>
+<li><a href="../teaching/" class="teaching">Teaching</a></li>
+<li><a href="./" class="research">Research</a></li>
+<li><a href="../publications/" class="pubs">Publications</a></li>
+<li><a href="../activities/" class="activity">Synergistic Activities</a></li>
+</ul>
+</div>
+</div> 
+
+  <body class="research">
+
+
+<div class="maincontent">
+                           
+<table width = 100% cellpadding=5>
+<tr><td width=60%><font
+  size=+1><b><center>Magnetohydrodynamics</center></b></font><br>
+  <b> Island Coalescence</b><br>
+This models an instability in a reduced 2D tokamak model.  Here, we look at a thin annulus in the cross section
+of a large-aspect ratio tokamak.  The magnetic field in the toroidal direction (going around the torus) is large and 
+mostly constant.  Therefore, we only consider the instabilities in the poloidal direction.  An initial equilibrium 
+is perturbed resulting in two peaks of current density coalescing together.  The result is a reconnection of magnetic
+field lines and sharp spike in current density at the reconnection point.  The following movies show this for a variety 
+of parameters.<br><br>
+  R = Reynolds Number<br>
+S = Lundquist Number<br>
+</td>
+<td width = 30%><IMG SRC="movies/torus.jpg" HEIGHT=269 WIDTH=386></td>
+</tr>
+</table>
+
+<table width = 100% cellpadding=5>
+<tr>
+<td><td width=50%><b> 3D Parallel Results </b><br> (simulations by Lei Tang on Frost: IBM Blue
+Gene/L, formerly at <a href="https://ncar.ucar.edu/" target="_blank">NCAR</a>)<br>
+<ul>
+<li><a href="movies/Re05000_np256x4_dtp1.mov" target="_blank"><b>Current Density: R = S = 5,000 &nbsp&nbsp&nbsp dt = 0.1 &nbsp&nbsp&nbsp 256 processors</b></a><br>
+</li>
+<li><a href="movies/Re10000_np256x4_dtp1.mov" target="_blank"><b>Current Density: R = S = 10,000 &nbsp dt = 0.1 &nbsp&nbsp&nbsp 256 processors</b></a><br>
+</li>
+<li><a href="movies/Re25000_np1024_dtp025.mov" target="_blank"><b>Current Density: R = S = 25,000 &nbsp dt = 0.025 1024 processors</b></a><br>
+</li>
+<li><a href="movies/Re50000_np1024_dtp025.mov" target="_blank"><b>Current Density: R = S = 50,001 &nbsp dt = 0.025 1024 processors</b></a><br>
+</li>
+</ul></td>
+<td><td width=50%><b>2D Serial Results (Contour Plots)</b><br><br>
+<ul>
+<li><a href="movies/R5000_acef4.mov" target="_blank"><b>Current Density: R = S = 5000 With Adaptive Refinement</b></a><br>
+</li>
+<li><a href="movies/R10000_acef4.mov" target="_blank"><b>Current Density: R = S = 10000 With Adaptive Refinement</b></a><br>
+</li>
+<li><a href="movies/R25000_acef4.mov" target="_blank"><b>Current Density: R = S = 25000 With Adaptive Refinement</b></a><br>
+</li>
+<li><a href="movies/R50001_acef4.mov" target="_blank"><b>Current Density: R = S = 50001 With Adaptive Refinement</b></a><br>
+</li>
+</ul>
+  </td>
+</tr>
+</table>
+</div>
+
+<div class="maincontent">
+<table width = 100% cellpadding=5>
+<tr><td width=60%><font
+  size=+1><b><center>Two-Phase Flow</center></b></font><br>
+  
+In these experiments, we use the diffusive interface theory to model the interaction of two fluids.  The two fluids are 
+distinguished from each other by introducing a phase-function.  In the diffusive mixing region, the phillic and the phobic 
+forces compete either to bring the two fluids together or to keep them separated.  Depending on the parameters of the
+problem, the inherent energy laws will govern the behavior of the two fluids.<br>
+</td>
+<td width = 30%><IMG SRC="movies/phase_sq_final.jpg" HEIGHT=200 WIDTH=200></td>
+</tr>
+</table>
+<br>
+<table width = 100% cellpadding=5>
+<tr>
+<td><td width=50%><b>Osculating Bubbles:</b> 2 Bubbles of Fluid 1 Immersed in Fluid 2<br>
+<ul>
+<li><a href="movies/phi_dtp01_f4_BDF2.mov" target="_blank"><b>Phase Function: with adaptive refinement and same viscosities</b></a></li>
+</ul></td>
+<td><td width=50%><b>Square to Circle:</b> 1 Bubble of Fluid 1 Immersed in Fluid 2<br>
+<ul>
+<li><a href="movies/phi_sq_dtp01_NS_gp01.mov" target="_blank"><b>Phase Function: with adaptive refinement and same viscosities</b></a></li>
+</ul>
+  </td>
+</tr>
+<tr>
+<td><td width=55%><b>Varying Viscosity in L-shaped Bubble</b><br>
+<ul>
+<li><a href="movies/L_mu50to1_gamp001_lamp01.mov" target="_blank"><b>Phase Function: Viscosity in bubble 50 times outside.</b></a></li>
+<li><a href="movies/L_mu50to1_gp001_lamp01_shear.mov" target="_blank"><b>Phase Function: Viscosity in bubble 50 times outside plus shear flow.</b></a></li>
+</ul>
+<td><td width=50%><b>Bubble in Pipe</b><br>
+<ul>
+<li><a href="movies/phipipe500.mov" target="_blank"><b>Phase Function: Bubble in long tube</b></a></li>
+<li><a href="movies/meshpipe500.mov" target="_blank"><b>Mesh File: Bubble in long tube</b></a></li>
+</ul>
+  </td>
+</tr>
+</table>
+
+</div>
+
+<div class="maincontent">
+
+<table width = 100% cellpadding=5>
+<tr><td width=60%><font
+  size=+1><b><center>Liquid Crystals</center></b></font><br>
+<b> Nematostatics</b><br>
+In these experiments, we study various phenomena in static liquid cyrstal test problems.  We look at varying parameters that affect the 
+splay, twist, and bend of a liquid crystal configuration.  In addition, we introduce a static electric field with and without a polarizing 
+effect to see how the configuration changes.  In all cases, we assume the liquid crystal is made up of cylindrical rods that can
+point in any direction, but only vary in the 2D plane and have length 1.  We test how well a least-squares finite element approach does in solving
+such systems. The vector fields of the rods are displayed in the following movies.  Here, the parameters K1, K2, and K3 represent the twist, splay,
+and bend Frank constants of the overall configuration. <br>
+</td>
+<td width = 30%><IMG SRC="movies/staticcrystal.jpg" HEIGHT=189 WIDTH=250></td>
+</tr>
+</table>
+<br>
+<table width = 100% cellpadding=5>
+<tr>
+<td><td width=50%><b>Nematics</b><br>
+<ul>
+<li><a href="movies/ksame.mov" target="_blank"><b>K1=1, K2=1,
+  K3=1</b></a></li>
+  <li><a href="movies/kdiff.mov" target="_blank"><b>K1=1, K2=0.5, K3 = 1.5</b></a></li>
+<li><a href="movies/k2_p25.mov" target="_blank"><b>K1=1, K2=0.25, K3 = 1.5</b></a></li>
+<li><a href="movies/k11_k2p1_k31.mov" target="_blank"><b>K1=1, K2=0.1, K3 = 1</b></a></li>
+</ul></td>
+<td><td width=50%><b>Banana Crystals</b><br>
+<ul>
+<li><a href="movies/banana_k3p5.mov" target="_blank"><b>K1=1, K2=0.5, K3=0.5</b></a></li>
+<li><a href="movies/banana_k3p25.mov" target="_blank"><b>K1=1, K2=0.5, K3=0.25</b></a></li>
+<li><a href="movies/banana_k3p1.mov" target="_blank"><b>K1=1, K2=0.5, K3=0.1</b></a></li>
+<li><a href="movies/banana_k3p01.mov" target="_blank"><b>K1=1, K2=0.5, K3=0.01</b></a></li>
+  </td>
+</tr>
+<tr>
+<td><td width=55%><b>Electric Field Added</b> No Polarization Effect<br>
+<ul>
+<li><a href="movies/elec_V2.mov" target="_blank"><b>Top Voltage = 2, K1 = 1, K2 = 0.63, K3 = 1.32</b></a></li>
+</ul>
+  </td>
+</tr>
+</table>
+
+</div>
+
+</body>
+
+<div class="menubar-bot">
+<div class="menu">
+<div class="menu-static">
+<font size=-2>Last Updated 2017-Mar-09</font>
+</div>
+</div>
+</div>
+
+</html>
